@@ -22,6 +22,9 @@ imaging_data/*.nd2
 # Generated outputs
 segmentation/
 segmentation3d/
+# keep small 3D example stacks
+!segmentation3d/fish10-test_data_smaller.tif
+!segmentation3d/fish10/fish10_test_data1.tif
 
 # Jupyter
 .ipynb_checkpoints/

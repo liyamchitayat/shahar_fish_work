@@ -116,6 +116,11 @@ Runtime guidance (CPU)
 Cluster usage
 - See `CLUSTER.md` for SLURM batch examples (2D MIP CPU/GPU, 3D TIFF CPU) and using node-local scratch for caches.
 
+Sample 3D test data (included in repo)
+- `segmentation3d/fish10-test_data_smaller.tif` (6 × 669 × 708)
+- `segmentation3d/fish10/fish10_test_data1.tif` (15 × 628 × 671)
+You can run the 3D helper directly on these to validate environment and parameters.
+
 Reproducibility
 - Parameters are recorded in your command line.
 - The script stores masks as TIFF and optional flows/diameters as NPY in `segmentation/<sample>/npy/`.
