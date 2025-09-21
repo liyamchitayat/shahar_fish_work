@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Local caches
+.mplconfig/
+cellpose_models/
+
+# Large raw data
+imaging_data/*.nd2
+
+# Generated outputs
+segmentation/
+segmentation3d/
+
+# Jupyter
+.ipynb_checkpoints/
